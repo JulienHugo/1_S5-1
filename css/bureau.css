@@ -1,0 +1,6 @@
+body main img {
+  min-width: 400px;
+  min-height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+}

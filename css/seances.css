@@ -1,0 +1,43 @@
+body main div {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1000px;
+  padding: 0;
+}
+
+body main table {
+  background: #f44336ab;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  width: calc((1000px - 100px) / 3);
+}
+
+body main table tr {
+  text-align: center;
+}
+
+body main table tr:nth-child(1) {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+body main table tr:nth-child(2) {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+body main table tr:nth-child(3) {
+  text-align: justify;
+}
+
+body main table tr:nth-child(3) ul li {
+  list-style: circle outside;
+  margin: 0;
+}
+
+body main h3,
+body main h4 {
+  text-align: center;
+}

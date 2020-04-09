@@ -1,10 +1,13 @@
 body main img {
   width: 1000px;
   height: calc(100vh - 425px);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
 }
 
 body main i {
   color: unset !important;
 }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL2Nzcy9ob21lLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQWE7RUFDYiwyQkFBMkI7RUFDM0Isb0JBQWlCO0tBQWpCLGlCQUFpQjtFQUNqQixtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSx1QkFBdUI7QUFDekIiLCJmaWxlIjoiaG9tZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5IG1haW4gaW1nIHtcbiAgd2lkdGg6IDEwMDBweDtcbiAgaGVpZ2h0OiBjYWxjKDEwMHZoIC0gNDI1cHgpO1xuICBvYmplY3QtZml0OiBjb3ZlcjtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbn1cblxuYm9keSBtYWluIGkge1xuICBjb2xvcjogdW5zZXQgIWltcG9ydGFudDtcbn1cbiJdfQ== */
