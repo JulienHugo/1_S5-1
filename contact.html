@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - La marmite à Tata Nini et Miloche</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/autosize"></script>
+    <link rel="icon" href="images/marmite.png">
+  </head>
+  <body>
+    <header>
+      <h1>La marmite à Tata Nini et Miloche</h1>
+      <img src="./images/marmite.png" alt="Logo de l'association" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="bureau.html">Bureau</a></li>
+          <li><a href="infos.html">Informations</a></li>
+          <li><a href="seances.html">Séances</a></li>
+          <li><a href="mediatheque.html">Médiathèque</a></li>
+          <li class="selected"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Contact</h2>
+      <form method="post" action="http://jourdain.legtux.org/index_site.php">
+        <label for="first_name">Prénom</label>
+        <input type="text" required id="first_name" name="first_name" />
+        <label for="last_name">Nom</label>
+        <input type="text" required id="last_name" name="last_name" />
+        <label for="email">Email</label>
+        <input type="email" required id="email" name="email" />
+        <label for="message">Message</label>
+        <textarea name="message" id="message" required></textarea>
+        <div class="inline space-evenly" style="width: 800px;">
+          <button onclick="location.reload(true)">Effacer</button>
+          <input type="submit" value="Valider" />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>Hugo SALOU</p>
+      <p>NSI</p>
+      <p>2019-2020</p>
+    </footer>
+    <script>
+      autosize(document.getElementById('message'))
+    </script>
+  </body>
+</html>

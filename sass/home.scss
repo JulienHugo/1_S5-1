@@ -1,0 +1,11 @@
+body main {
+  img {
+    width: 1000px;
+    height: calc(100vh - 425px);
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  i {
+    color: unset !important;
+  }
+}

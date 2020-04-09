@@ -1,0 +1,45 @@
+body main {
+  div {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1000px;
+    padding: 0;
+  }
+  table {
+    background: #f44336ab;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    width: calc((1000px - 100px) / 3);
+    tr {
+      text-align: center;
+
+      // Nom
+      &:nth-child(1) {
+        font-weight: 600;
+        font-size: 1.2rem;
+      }
+      // Date
+      &:nth-child(2) {
+        font-weight: 300;
+        font-size: 0.8rem;
+      }
+      // Ingredients
+      &:nth-child(3) {
+        text-align: justify;
+        ul {
+          li {
+            list-style: circle outside;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  h3,
+  h4 {
+    text-align: center;
+  }
+}
