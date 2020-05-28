@@ -2,7 +2,7 @@ body main img {
   width: 1000px;
   height: calc(100vh - 425px);
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 10px;
 }
 
